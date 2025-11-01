@@ -33,7 +33,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Header logoSrc="/file.svg" siteName={companyData.companyTitle} cartCount={5} />
+        <Header logoSrc="/globe.svg" siteName={companyData.companyTitle} cartCount={5} />
         {children}
         <Footer />
       </body>
