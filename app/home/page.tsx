@@ -1,9 +1,8 @@
 'use client';
 
-import Image from "next/image";
-import Header from "../components/header";
-import Footer from "../components/footer";
-import ItemCard, { Item } from "../components/item-cart";
+import ItemCard from "@/components/item-cart";
+import { Item } from "@/components/item-cart";
+
 
 
 
@@ -40,7 +39,7 @@ export default function Home() {
   return (
     // <div className="min-h-screen bg-background">
     <div className="flex flex-col min-h-screen">
-      <Header logoSrc="/logo.png" siteName="ShopEase" cartCount={5} />
+      {/* <Header logoSrc="/logo.png" siteName="ShopEase" cartCount={5} /> */}
       <main className="flex-grow bg-background">
         {/* your home content */}
         <div className="container mx-auto px-4 py-6">
@@ -61,7 +60,6 @@ export default function Home() {
           </section>
         </div>
       </main>
-      <Footer />
     </div>
 
   );
