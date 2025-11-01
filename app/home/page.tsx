@@ -37,9 +37,7 @@ export default function Home() {
     reviewsCount: Math.floor(Math.random() * 200),
   }));
   return (
-    // <div className="min-h-screen bg-background">
-    <div className="flex flex-col min-h-screen">
-      {/* <Header logoSrc="/logo.png" siteName="ShopEase" cartCount={5} /> */}
+     <div className="flex flex-col min-h-screen">
       <main className="flex-grow bg-background">
         {/* your home content */}
         <div className="container mx-auto px-4 py-6">

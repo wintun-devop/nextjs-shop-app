@@ -1,5 +1,6 @@
+import NotFound from "@/components/not-found"
+
 // app/not-found.tsxt
-import NotFound from "./components/not-found"
 
 
 export default function NotFoundPage() {

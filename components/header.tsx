@@ -19,7 +19,8 @@ const Header: FC<HeaderProps> = ({
 
   return (
     <header className="bg-white shadow">
-      <nav className="px-4 py-2 flex items-center justify-between">
+      <nav className="px-8 py-2 flex items-center justify-between">
+      {/* <nav className="px-8 py-2 flex items-center justify-between"> */}
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <img src={logoSrc} alt="Logo" className="h-8 w-auto" />
